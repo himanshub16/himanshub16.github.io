@@ -1,15 +1,13 @@
 ---
 layout: page
-title: About
+title: About me
 permalink: /about/
 ---
 
-Some information about you!
+I am Himanshu Shekhar.
 
-### More Information
+I am a developer, open-source enthusiast, and love creating [things](https://github.com/himanshub16/).
 
-A place to include any other types of information that you'd like to include about yourself.
+I am currently an undergrad at Indian Institute of Information Technology, Allahabad.
 
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+You can find my resume [here](https://bit.ly/himanshub16-resume) or contact me via your preferred way below.
