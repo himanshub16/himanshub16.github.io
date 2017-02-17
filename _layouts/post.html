@@ -3,15 +3,22 @@ layout: default
 ---
 
 <article class="post">
-  <h1>{{ page.title }}</h1>
+    <div>
+        <h1>
+            {{ page.title }}
+            {% if page.medium_link != "none" %}
+            <a href="{{ page.medium_link }}"><img src="{{ site.url }}/images/medium-small.png" class="medium-link" title="Read on Medium" alt="Read on Medium"></a>
+            {% endif %}
+        </h1>
+    </div>
 
-  <div class="entry">
-    {{ content }}
-  </div>
+    <div class="entry">
+        {{ content }}
+    </div>
 
-  <div class="date">
-    Written on {{ page.date | date: "%B %e, %Y" }}
-  </div>
+    <div class="date">
+        Written on {{ page.date | date: "%B %e, %Y" }}
+    </div>
 
-  {% include disqus.html %}
+    {% include disqus.html %}
 </article>

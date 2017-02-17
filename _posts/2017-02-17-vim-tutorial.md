@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Getting the most out of Vim
+medium_link: https://medium.com/@himanshub16/getting-the-most-out-of-vim-5cc35feef8e5#.gz4perowu
 ---
 
 This is a brief about my Vim setup and how can one start using the awesome features of Vim.

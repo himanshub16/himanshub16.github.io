@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Improving download speed on Linux
+medium_link: none
 ---
 
 This blog is about improving download speeds on Linux using aria and Uget download manager.

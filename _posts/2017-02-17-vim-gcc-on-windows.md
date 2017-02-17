@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How to use GCC and Vim on Windows
+medium_link: none
 ---
 
 Most of the GNU tools are available for not just Linux, but other platforms as well.

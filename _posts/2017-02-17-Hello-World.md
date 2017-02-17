@@ -1,6 +1,7 @@
 ---
 layout: post
 title: You're up and running!
+medium_link: none
 ---
 
 Setting up my blog.
