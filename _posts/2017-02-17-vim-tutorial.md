@@ -53,3 +53,5 @@ Here's a view of my plugins in action:
 *YouCompleteMe can take considerable time to build after install. However, that is one-time. You can comment the lines regarding youcompleteme to make things fast while setup.*
 
 *Don't freak out at the lines at the end of vimrc. I've too used the snippets available on the README pages of the respective plugins.*
+
+*Requirements vary from person to person. Tweak things as you need.*
