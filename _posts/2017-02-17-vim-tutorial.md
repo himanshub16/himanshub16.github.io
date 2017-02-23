@@ -49,6 +49,9 @@ Here's a view of my plugins in action:
 * Install [Vim Plug](https://github.com/junegunn/vim-plug).
 * Open Vim, and then type `:PlugInstall`.
 * Wait for things to set up.
+* If you have installed *YouCompleteMe*, download [this file](https://raw.githubusercontent.com/himanshub16/MyScripts/master/ycm_extra_conf.py/) to ~/.ycm_extra_conf.py.
+
+You can modify this file to suit your needs for C/C++.
 
 *YouCompleteMe can take considerable time to build after install. However, that is one-time. You can comment the lines regarding youcompleteme to make things fast while setup.*
 
