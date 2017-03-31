@@ -10,4 +10,4 @@ I am a developer, open-source enthusiast, and love creating [things](https://git
 
 I am currently an undergrad at Indian Institute of Information Technology, Allahabad.
 
-You can find my resume [here](https://bit.ly/himanshub16-resume) or contact me via your preferred way below.
+You can find my resume [here](https://github.com/himanshub16/resume/raw/master/himanshub16.pdf) or contact me via your preferred way below.
