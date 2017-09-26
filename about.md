@@ -6,6 +6,8 @@ permalink: /about/
 
 I am Himanshu Shekhar.
 
+I go by the name **himanshub16** on the web.
+
 I am a developer, open-source enthusiast, and love creating [things](https://github.com/himanshub16/).
 
 I am currently an undergrad at Indian Institute of Information Technology, Allahabad.
