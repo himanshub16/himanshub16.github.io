@@ -2,6 +2,7 @@
 layout: post
 title: You're up and running!
 medium_link: none
+categories: [jeyll, markdown]
 ---
 
 Setting up my blog.

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How to use GCC and Vim on Windows
+categories: [vim, gcc, windows, mingw]
 medium_link: none
 ---
 

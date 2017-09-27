@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Improving download speed on Linux
+categories: [uget, aria2, idm, linux]
 medium_link: none
 ---
 

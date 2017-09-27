@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Getting the most out of Vim
+categories: [vim, vimrc]
 medium_link: https://medium.com/@himanshub16/getting-the-most-out-of-vim-5cc35feef8e5#.gz4perowu
 ---
 

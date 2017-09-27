@@ -16,6 +16,14 @@ layout: default
         {{ content }}
     </div>
 
+    <div class="tags">
+        {% assign keywords = page.categories|replace:']','' | replace:'[','' | replace:'"','' | replace:' ','' | split:',' %}
+        {% for kw in keywords %}
+        <span class="tag"> #{{ kw }} </span>
+        {% endfor %}
+    </div>
+
+    <br/>
     <div class="date">
         Written on {{ page.date | date: "%B %e, %Y" }}
     </div>
