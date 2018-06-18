@@ -81,3 +81,19 @@ For an exercise,
 ```
 
 Clearly, bases 36 and 62 seem to be safest choices and require less space compared to smaller bases.
+
+## So how does this work in software?
+- Assign a serial number to a URL. This can be the primary key if it is a SQL database.
+- Convert that serial number to base 62 (you can use any base).
+- `yourdomain.com/base_62`_value is the required URL.
+
+- Whenever one hits the above URL, you get the string for `base_62_value`.
+- Convert that `base_62_value` to `base_10` integer as above exercise does.
+- That is the serial number you are looking for.
+
+
+I'd be writing another post with implementation of the same in program.
+
+#### Note
+- Make sure the serial number is something unique and never repeats.
+- If you are using MongoDB, use a serial number stored in some other collection.

@@ -14,4 +14,4 @@ I am student at [IIIT-Allahabad](https://iiita.ac.in) studying Bachelors in IT a
 
 I go by the name [**himanshub16**](https://google.com/search?q=himanshub16) on the web.
 
-You can find my resume [here](https://github.com/himanshub16/resume/raw/master/himanshub16.pdf) or contact me via one of the ways below.
+You can find my resume [here](/assets/himanshub16-resume.pdf) or contact me via one of the ways below.
