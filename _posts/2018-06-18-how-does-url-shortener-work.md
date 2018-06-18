@@ -5,13 +5,17 @@ medium_link: none
 categories: [concept, programming]
 ---
 
-Have you ever visited links like [https://goo.gl](https://goo.gl), [https://bit.ly](https://bit.ly), [https://goo.gl](https://goo.gl)  ?
+Have you ever wondered links like [https://goo.gl](https://goo.gl), [https://bit.ly](https://bit.ly), [https://goo.gl](https://goo.gl)  ?
 
 They are some of the renowned URL shortening services on the Internet.
 
 This aim of this post is to explain how does URL shortening works, so one can make on his own.
 
-This post deals with the concepts invovled. For hands-on programming guide, visit this link.
+This post deals with the concepts invovled.
+If you are looking for code, click the lord's face and get it.
+
+[![Talk is cheap, show me the code](/assets/url-shortener/talk-is-cheap.jpg)](https://github.com/himanshub16/outbound-go)
+
 
 #### Pre-requisites
 - Interest in topic.
@@ -20,11 +24,11 @@ This post deals with the concepts invovled. For hands-on programming guide, visi
 ## What is a shortened URL?
 Consider the following examples:
 
-| Shortened version        | Original URL                                                                               |
-|--------------------------|--------------------------------------------------------------------------------------------|
-| https://goo.gl/KIuxZj    | https://github.com/himanshub16/resume/raw/master/himanshub16.pdf                           |
-| https://bit.ly/tweelyser | https://tweelyser.herokuapp.com                                                            |
-| https://t.co/VzsLNXdD4Y  | https://www.nasa.gov/image-feature/goddard/2018/hubble-exquisite-view-of-a-stellar-nursery |
+| Shortened version          | Original URL                                                                               |
+|----------------------------|--------------------------------------------------------------------------------------------|
+| <https://goo.gl/KIuxZj>    | <https://github.com/himanshub16/resume/raw/master/himanshub16.pdf>                         |
+| <https://bit.ly/tweelyser> | <https://tweelyser.herokuapp.com>                                                          |
+| <https://t.co/VzsLNXdD4Y>  | <https://www.nasa.gov/image-feature/goddard/2018/hubble-exquisite-view-of-a-stellar-nursery> |
 
 The shortened versions appear more precise to the original ones.
 
@@ -83,6 +87,9 @@ For an exercise,
 Clearly, bases 36 and 62 seem to be safest choices and require less space compared to smaller bases.
 
 ## So how does this work in software?
+
+[Find code implementation here](https://github.com/himanshub16/outbound-go/blob/master/baseconv.go)
+
 - Assign a serial number to a URL. This can be the primary key if it is a SQL database.
 - Convert that serial number to base 62 (you can use any base).
 - `yourdomain.com/base_62`_value is the required URL.
@@ -92,8 +99,8 @@ Clearly, bases 36 and 62 seem to be safest choices and require less space compar
 - That is the serial number you are looking for.
 
 
-I'd be writing another post with implementation of the same in program.
-
 #### Note
 - Make sure the serial number is something unique and never repeats.
 - If you are using MongoDB, use a serial number stored in some other collection.
+
+:tada: Here you go! Make one like [this](https://outbound-go.herokuapp.com) yourself.
