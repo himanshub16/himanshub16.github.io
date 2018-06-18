@@ -1,15 +1,17 @@
 ---
 layout: page
 title: About me
-permalink: /about/
+permalink: /about
 ---
 
-I am Himanshu Shekhar.
+Hi!
 
-I go by the name **himanshub16** on the web.
+My name is Himanshu Shekhar.
 
-I am a developer, open-source enthusiast, and love creating [things](https://github.com/himanshub16/).
+I love [writing software](https://github.com/himanshub16), mostly backend and data-pipeline stuff.
 
-I am currently an undergrad at Indian Institute of Information Technology, Allahabad.
+I am student at [IIIT-Allahabad](https://iiita.ac.in) studying Bachelors in IT and Masters in Robotics. I am expected to graduate by 2020.
 
-You can find my resume [here](https://github.com/himanshub16/resume/raw/master/himanshub16.pdf) or contact me via your preferred way below.
+I go by the name [**himanshub16**](https://google.com/search?q=himanshub16) on the web.
+
+You can find my resume [here](https://github.com/himanshub16/resume/raw/master/himanshub16.pdf) or contact me via one of the ways below.
