@@ -5,7 +5,7 @@ medium_link: none
 categories: [concept, programming]
 ---
 
-Have you ever visited links like https://goo.gl, https://bit.ly, https://git.io ?
+Have you ever visited links like [https://goo.gl](https://goo.gl), [https://bit.ly](https://bit.ly), [https://goo.gl](https://goo.gl)  ?
 
 They are some of the renowned URL shortening services on the Internet.
 
