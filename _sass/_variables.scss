@@ -1,7 +1,11 @@
-
 //
 // VARIABLES
 //
+
+@import url("https://fonts.googleapis.com/css?family=Ubuntu+Mono");
+@import url("https://fonts.googleapis.com/css?family=Lato");
+// @import url("https://fonts.googleapis.com/css?family=Roboto");
+// @import url("https://fonts.googleapis.com/css?family=Open+Sans");
 
 // Colors
 $blue: #4183C4;
@@ -9,7 +13,7 @@ $blue: #4183C4;
 // Grays
 $black: #000;
 $darkerGray: #222;
-// $darkGray: #333;
+$darkGray: #333;
 $lightgray: #f6f8fa;
 $gray: #666;
 $lightGray: #eee;
@@ -20,10 +24,16 @@ $helvetica: Helvetica, Arial, sans-serif;
 $helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $georgia: Georgia, serif;
 $lato: 'Lato', san-serif;
+$roboto: 'Roboto', san-serif;
+$openSans: 'Open Sans', san-serif;
+$ubuntuMono: 'Ubuntu Mono', monospace;
+
+$default-font: $lato;
+$default-monospace-font: $ubuntuMono;
 
 // Mobile breakpoints
 @mixin mobile {
   @media screen and (max-width: 640px) {
     @content;
   }
-}
+};

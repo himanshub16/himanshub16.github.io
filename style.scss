@@ -5,8 +5,7 @@
 // IMPORTS
 //
 
-@import "reset";
-@import "variables";
+@import "reset", "variables";
 // Syntax highlighting @import is at the bottom of this file
 
 /**************/
@@ -19,7 +18,7 @@ html {
 
 body {
 	background: $white;
-  font: 18px/1.4 $lato;
+  font: 18px/1.4 $default-font;
   color: $darkGray;
 }
 
@@ -31,7 +30,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $lato;
+  font-family: $default-font;
   color: $darkerGray;
   font-weight: bold;
 
@@ -195,7 +194,7 @@ img {
   margin: 0;
   color: $darkGray;
   cursor: pointer;
-  font-family: $lato;
+  font-family: $default-font;
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
@@ -214,7 +213,7 @@ img {
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $lato;
+  font-family: $default-font;
   font-size: 18px;
 
   @include mobile {
@@ -275,8 +274,8 @@ nav {
 .wrapper-footer {
   margin-top: 50px;
   border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
+  // border-bottom: 1px solid #ddd;
+  // background-color: $lightgray;
 }
 
 footer {
@@ -295,7 +294,36 @@ footer {
     font-size: small;
 }
 
+.site-name {
+    font-weight: bold;
+}
+
+table {
+    th, td {
+        border: 1px solid #ddd;
+        padding: 5px 10px;
+        text-align: center;
+    }
+    th {
+        font-weight: bold;
+    }
+    tr:nth-child(2n) {
+        background-color: $lightgray;
+    }
+    border-radius: 3px;
+}
+
+
+pre {
+    font-size: 85%;
+    font-family: $default-monospace-font;
+    line-height: 1.45;
+    background-color: $lightgray;
+    border-radius: 3px;
+    padding: 15px;
+}
+
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
-@import "highlights";
 @import "svg-icons";
