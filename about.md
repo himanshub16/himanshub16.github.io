@@ -10,7 +10,7 @@ My name is Himanshu Shekhar.
 
 I love [writing software](https://github.com/himanshub16), mostly backend and data-pipeline stuff.
 
-I am student at [IIIT-Allahabad](https://iiita.ac.in) studying Bachelors in IT and Masters in Robotics. I am expected to graduate by 2020.
+I am a student at [IIIT-Allahabad](https://iiita.ac.in) studying Bachelors in IT and Masters in Robotics (dual degree course). I am expected to graduate by 2020.
 
 I go by the name [**himanshub16**](https://google.com/search?q=himanshub16) on the web.
 
