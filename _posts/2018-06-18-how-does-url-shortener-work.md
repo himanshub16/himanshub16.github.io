@@ -11,8 +11,7 @@ They are some of the renowned URL shortening services on the Internet.
 
 This aim of this post is to explain how does URL shortening works, so one can make on his own.
 
-This post deals with the concepts invovled.
-If you are looking for code, click the lord's face and get it.
+> This post deals with the concepts invovled. If you are looking for code, click the lord's face and get it.
 
 [![Talk is cheap, show me the code](/assets/url-shortener/talk-is-cheap.jpg)](https://github.com/himanshub16/outbound-go)
 
