@@ -2,7 +2,7 @@
 layout: post
 title: How does a URL shortener work?
 medium_link: none
-categories: [concept, programming]
+categories: [concept, programming, url shortener, algorithm]
 ---
 
 Have you ever wondered links like [https://goo.gl](https://goo.gl), [https://bit.ly](https://bit.ly), [https://goo.gl](https://goo.gl)  ?
