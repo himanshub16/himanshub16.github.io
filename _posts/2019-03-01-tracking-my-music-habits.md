@@ -62,7 +62,7 @@ A major drawback with this wrapper is that it doesn't provide the **corked** sta
 `pactl` provides `corked` flag in it's result. So, if I can implement a part of what `pactl subscribe` does and log that to a file, then it can help. That would either mean parsing the output on shell, or using the [C API](https://www.freedesktop.org/wiki/Software/PulseAudio/Documentation/).
 The second one appears to be a cleaner solution, and some thrill for this idle person who hasn't handled something tiring for a long time.
 
-Dealing with C, with callbacks/async code and strict typing makes things too slow. After hours of understanding the source of `pactl`, fixing segfaults, linker errors, and further more hours of removal of unrequired code (need subscribe, and callbacks for sink and sink_inputs), I finally arrived at a readable scope of about 500 lines from 2000 lines.
+Dealing with C, with callbacks/async code and strict typing makes things too slow. :sob: After hours of understanding the source of `pactl`, fixing segfaults, linker errors, and further more hours of removal of unrequired code (need subscribe, and callbacks for sink and sink_inputs), I finally arrived at a readable scope of about 500 lines from 2000 lines.
 
 Now, all that is left is to dump the events to a file - CSV format in this case. The events were dumped to the logfile corresponding to the application name.
 
