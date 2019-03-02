@@ -5,7 +5,7 @@ medium_link: none
 categories: [c, golang, viz, analytics]
 ---
 
-This post describes my experiment to track my music listening habits - how long am I exposed to sound, is it loud, and precisely, if I am using my headphones way too much. :worried:
+This post describes my [experiment](https://github.com/himanshub16/music-habits) to track my music listening habits - how long am I exposed to sound, is it loud, and precisely, if I am using my headphones way too much. :worried:
 
 ![Demo](https://raw.githubusercontent.com/himanshub16/music-habits/master/preview.gif)
 
