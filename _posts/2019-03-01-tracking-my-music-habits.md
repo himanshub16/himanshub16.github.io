@@ -7,8 +7,22 @@ categories: [c, golang, viz, analytics]
 
 This post describes my [experiment](https://github.com/himanshub16/music-habits) to track my music listening habits - how long am I exposed to sound, is it loud, and precisely, if I am using my headphones way too much. :worried:
 
-![Demo](https://raw.githubusercontent.com/himanshub16/music-habits/master/preview.gif)
+{% raw %}
+<center>
+<h3><a href="https://himanshub16.github.io/music-habits">Try this interactive demo</a></h3>
+<br>
+<img src="https://github.com/himanshub16/music-habits/raw/master/preview.gif" />
+</center>
+<!-- <iframe frameborder="no" border="1" marginwidth="0" marginheight="0" width="750px" height="650px" src="http://himanshub16.github.io/music-habits"></iframe> -->
+{% endraw %}
 
+The data speaks some pretty-obvious facts about me as
+- I use laptop speakers lot more than headphones. Living in a single room in hostel gives the freedom to play music without headphones. :speaker:
+- For yesterday, my listening time shot to more than 6 hours. That's because I've been sitting whole day writing the code and content for this blog, with youtube playing in the background.
+- Hour-wise view shows that usage of headphone is pretty dominant in late night hours (9 PM to 3 AM). That is to keep the noise to myself and not disturb the sleep of people sleeping next door.
+
+
+### Movtivation
 For a lazy sloth like me, who spends hours sitting continuously infront of the computer, music is the way to fill the silence the room.
 Lately, on realizing that I am using my headphones a lot more than usual, I decided to track down my habits.
 
@@ -66,7 +80,7 @@ A major drawback with this wrapper is that it doesn't provide the **corked** sta
 `pactl` provides `corked` flag in it's result. So, if I can implement a part of what `pactl subscribe` does and log that to a file, then it can help. That would either mean parsing the output on shell, or using the [C API](https://www.freedesktop.org/wiki/Software/PulseAudio/Documentation/).
 The second one appears to be a cleaner solution, and some thrill for this idle person who hasn't handled something tiring for a long time.
 
-Dealing with C, with callbacks/async code and strict typing makes things too slow. :sob: After hours of understanding the source of `pactl`, fixing segfaults, linker errors, and further more hours of removal of unrequired code (need subscribe, and callbacks for sink and sink_inputs), I finally arrived at a readable scope of about 500 lines from 2000 lines.
+Dealing with C, with callbacks/async code and strict typing makes development too slow. :sob: After hours of understanding the source of `pactl`, fixing segfaults, linker errors, and further more hours of removal of unrequired code (need subscribe, and callbacks for sink and sink_inputs), I finally arrived at a readable scope of about 500 lines from 2000 lines.
 
 Now, all that is left is to dump the events to a file - CSV format in this case. The events were dumped to the logfile corresponding to the application name.
 
@@ -129,7 +143,7 @@ Simple loops nah, I [used Golang for this.](https://github.com/himanshub16/music
 Golang provides a lot of things as an HTTP server along with CSV parser, right there in the standard library.
 
 However, visualisation is much more convient using HTML instead of any other way of generating images (unless I am a pro at aligning text rightly).
-You can find the glimpse of the review in the GIF above.
+You can view it [interactively on this link](https://himanshub16.github.io/music-habits).
 
 Additionally, I have a text-summary available just to get the things right there on the console.
 
