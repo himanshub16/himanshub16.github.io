@@ -8,10 +8,11 @@ Hi!
 
 My name is Himanshu Shekhar.
 
-I love [writing software](https://github.com/himanshub16), mostly backend and data-pipeline stuff.
+An engineer who loves writing [software](https://github.com/himanshub16) to make the world a better place.
+I have 1 year+ of work experience working as a software intern and contractor at [Sumo Logic](https://sumologic.com).
 
-I am a student at [IIIT-Allahabad](https://iiita.ac.in) studying Bachelors in IT and Masters in Robotics (dual degree course). I am expected to graduate by 2020.
+Graduating in summer of 2020, I'm actively looking for full-time roles.
 
-I go by the name [**himanshub16**](https://google.com/search?q=himanshub16) on the web.
+My interests include distributed systems, cloud computing, operating systems, and making data-pipelines.
 
-You can find my resume [here](/assets/himanshub16-resume.pdf) or contact me via one of the ways below.
+You can find my resume [here](/resume) or contact me via one of the ways below.
